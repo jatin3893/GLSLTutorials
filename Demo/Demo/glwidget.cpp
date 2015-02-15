@@ -30,7 +30,7 @@ void GLWidget::initializeGL()
     * Initialising the shaders can also be done here.
     *
     */
-
+    glClearColor(0, 0, 0, 0); // Initialise clear color to black
 }
 
 void GLWidget::initShaders()
@@ -49,6 +49,7 @@ void GLWidget::paintGL()
      * Set shader variable values here.
      *
     */
+    glClear(GL_COLOR_BUFFER_BIT);
 }
 
 void GLWidget::resizeGL(int w, int h)
