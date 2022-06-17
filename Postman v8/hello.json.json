@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "dd6826d4-08b3-4d15-82e6-74123c2a6683",
+		"name": "Testing Shopigram",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test Facebook Webhook",
+			"_postman_id": "04bcd118-1409-4a65-b111-f1c899668888",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/facebook/webhook?id=11",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"facebook",
+						"webhook"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
