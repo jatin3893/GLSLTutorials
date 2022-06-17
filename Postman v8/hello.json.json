@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Test Facebook Webhook",
-			"_postman_id": "04bcd118-1409-4a65-b111-f1c899668888",
+			"id": "04bcd118-1409-4a65-b111-f1c899668888",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -15,7 +15,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/facebook/webhook?id=11",
+					"raw": "{{url}}/facebook/webhook?id=12",
 					"host": [
 						"{{url}}"
 					],
@@ -26,7 +26,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "11"
+							"value": "12"
 						}
 					]
 				}
