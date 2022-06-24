@@ -2,6 +2,7 @@
 	"info": {
 		"_postman_id": "dd6826d4-08b3-4d15-82e6-74123c2a6683",
 		"name": "Testing Shopigram",
+		"description": "``` bash\nYolo\n```\n\nHello\n\n`awdawdw`",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
