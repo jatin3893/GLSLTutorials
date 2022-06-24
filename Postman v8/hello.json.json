@@ -16,7 +16,12 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"Hello\": \"World\"\n}"
+					"raw": "{\n    \"Hello\": \"World\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "{{url}}/facebook/webhook?id=13",
